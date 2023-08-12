@@ -33,6 +33,6 @@ int collatz(int n)
             printf("%d", n);
         }
 
-    } while (n = !1);
+    } while (n != 1);
     printf("\n------NUMBER OF STEPS------\nSTEPS:%ld\n", STEPS);
 }
